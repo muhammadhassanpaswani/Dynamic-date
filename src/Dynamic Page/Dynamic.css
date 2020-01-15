@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0%;
+  text-align: center;
+}
+.dynamic {
+  margin-top: 15%;
+  color: rgb(226, 226, 226);
+}
+#time {
+  font-size: 8rem;
+}
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+}
+h2 {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+  letter-spacing: 0.25px;
+}
+@media screen and (max-width: 968px) {
+  .dynamic {
+    margin-top: 20%;
+    margin-bottom: 17%;
+  }
+  #time {
+    font-size: 5rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dynamic {
+    margin-top: 35%;
+    margin-bottom: 17%;
+  }
+  #time {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+}

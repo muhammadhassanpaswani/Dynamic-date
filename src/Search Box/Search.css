@@ -1,0 +1,30 @@
+input {
+  text-align: left;
+  margin-top: 10px;
+  width: 35%;
+  height: 30px;
+  font-size: 26px;
+  padding: 22px;
+  border-radius: 30px;
+  border: none;
+}
+label {
+  position: relative;
+}
+.search-icon {
+  color: black;
+  font-size: 26px;
+  margin-top: 1.5%;
+  position: absolute;
+
+  right: 34%;
+}
+@media screen and (max-width: 768px) {
+  .search-icon {
+    margin-top: 5%;
+    font-size: 18px;
+    position: absolute;
+
+    right: 35%;
+  }
+}

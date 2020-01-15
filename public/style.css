@@ -1,0 +1,12 @@
+body {
+  font-family: "Quicksand", sans-serif;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWokp4KWJCqgH4X6XFTXAgblDex3vDaVn5J4rPG0Iroz-w7lpWLw&s");
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-repeat: repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWokp4KWJCqgH4X6XFTXAgblDex3vDaVn5J4rPG0Iroz-w7lpWLw&s");
+  }
+}
